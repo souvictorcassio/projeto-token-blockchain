@@ -19,16 +19,18 @@ async function main() {
     const tx = await contract.addProperty(
       prop.name,
       prop.totalFractions,
-      hre.ethers.parseEther(prop.pricePerFraction)
+      hre.ethers.parseEther(prop.pricePerFraction),
+      prop.image,
+      prop.description
     );
     await tx.wait();
-    console.log(`Imóvel adicionado: ${prop.name}`);
+    console.log(`✅ Imóvel adicionado: ${prop.name}`);
   }
 
-  console.log("Todos os imóveis foram adicionados!");
+  console.log("🎉 Todos os imóveis foram adicionados com sucesso!");
 }
 
 main().catch((error) => {
-  console.error(error);
+  console.error("❌ Erro no deploy:", error);
   process.exitCode = 1;
 });

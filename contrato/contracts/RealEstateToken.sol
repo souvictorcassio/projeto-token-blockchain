@@ -8,24 +8,25 @@ contract RealEstateToken {
         uint fractionsSold;
         uint pricePerFraction;
         address owner;
+        string imageUrl;      // 🔹 NOVO
+        string description;   // 🔹 NOVO
     }
 
     Property[] public properties;
     mapping(uint => mapping(address => uint)) public ownership;
 
-    /// @notice Emitted when a new property is added
     event PropertyAdded(uint indexed propertyId, string name);
-
-    /// @notice Emitted when a user buys fractions
     event FractionPurchased(uint indexed propertyId, address indexed buyer, uint quantity);
 
     function addProperty(
         string memory name,
         uint totalFractions,
-        uint pricePerFraction
+        uint pricePerFraction,
+        string memory imageUrl,
+        string memory description
     ) public {
         uint id = properties.length;
-        properties.push(Property(name, totalFractions, 0, pricePerFraction, msg.sender));
+        properties.push(Property(name, totalFractions, 0, pricePerFraction, msg.sender, imageUrl, description));
         emit PropertyAdded(id, name);
     }
 
@@ -49,10 +50,12 @@ contract RealEstateToken {
         uint,
         uint,
         uint,
-        address
+        address,
+        string memory,
+        string memory
     ) {
         Property memory p = properties[id];
-        return (p.name, p.totalFractions, p.fractionsSold, p.pricePerFraction, p.owner);
+        return (p.name, p.totalFractions, p.fractionsSold, p.pricePerFraction, p.owner, p.imageUrl, p.description);
     }
 
     function getMyFractions(uint propertyId) public view returns (uint) {

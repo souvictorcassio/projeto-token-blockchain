@@ -2,16 +2,22 @@
   {
     "name": "Casa na Praia",
     "totalFractions": 100,
-    "pricePerFraction": "0.05"
+    "pricePerFraction": "0.05",
+    "image": "/images/casa-praia.jpg",
+    "description": "Linda casa com vista para o mar, a poucos metros da areia."
   },
   {
     "name": "Apartamento Centro",
     "totalFractions": 80,
-    "pricePerFraction": "0.1"
+    "pricePerFraction": "0.1",
+    "image": "/images/apartamento-centro.jpg",
+    "description": "Apartamento moderno localizado no coração da cidade."
   },
   {
     "name": "Cobertura Luxuosa",
     "totalFractions": 50,
-    "pricePerFraction": "0.2"
+    "pricePerFraction": "0.2",
+    "image": "/images/cobertura-luxuosa.png",
+    "description": "Cobertura com piscina privativa e vista panorâmica."
   }
 ]

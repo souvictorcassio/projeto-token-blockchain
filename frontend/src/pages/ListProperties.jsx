@@ -22,6 +22,8 @@ export default function ListProperties() {
           sold: p[2].toString(),
           price: p[3].toString(),
           owner: p[4],
+          image: p[5],
+          description: p[6],
         });
       }
       setProperties(props);
@@ -68,7 +70,9 @@ export default function ListProperties() {
       <div className="property-grid">
         {properties.map((prop) => (
           <div className="property-card" key={prop.id}>
+            <img src={prop.image} alt={prop.name} className="property-image" />
             <h3>{prop.name}</h3>
+            <p className="property-description">{prop.description}</p>
             <p>
               <strong>Total de Frações:</strong> {prop.totalFractions}
             </p>
