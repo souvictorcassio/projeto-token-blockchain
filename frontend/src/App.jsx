@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import ListProperties from "./pages/ListProperties";
+import "./App.css";
 
 function App() {
   return (

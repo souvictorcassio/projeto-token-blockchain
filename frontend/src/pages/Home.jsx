@@ -1,13 +1,12 @@
 import React from "react";
+import "./Home.css";
 
 export default function Home() {
   return (
-    <div style={{ padding: 20, fontFamily: "Arial, sans-serif" }}>
-      <h1>Bem-vindo à Plataforma de Tokenização de Imóveis</h1>
-      <p>
-        Aqui você pode conhecer nossos imóveis fracionados e adquirir suas cotas
-        de forma simples e segura.
-      </p>
+    <div className="home-container">
+      <h1>Bem-vindo à Plataforma BB de Tokenização de Imóveis</h1>
+      <p>Invista de forma simples e segura em imóveis fracionados.</p>
+      <button>Ver Imóveis Disponíveis</button>
     </div>
   );
 }
