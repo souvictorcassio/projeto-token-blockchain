@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Casa na Praia",
+    "totalFractions": 100,
+    "pricePerFraction": "0.05"
+  },
+  {
+    "name": "Apartamento Centro",
+    "totalFractions": 80,
+    "pricePerFraction": "0.1"
+  },
+  {
+    "name": "Cobertura Luxuosa",
+    "totalFractions": 50,
+    "pricePerFraction": "0.2"
+  }
+]
