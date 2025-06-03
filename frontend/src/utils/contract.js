@@ -1,7 +1,7 @@
 import { BrowserProvider, Contract } from "ethers";
 import abi from "./abi.json";
 
-const contractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+const contractAddress = "0x17f84F361d532E81A14193130427f867EA24b26D";
 
 export async function getContract() {
   if (!window.ethereum) {

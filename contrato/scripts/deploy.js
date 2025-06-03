@@ -1,25 +1,26 @@
-const hre = require("hardhat");
+const { ethers } = require("hardhat");
 const fs = require("fs");
 
 async function main() {
-  const [deployer] = await hre.ethers.getSigners();
-  const RealEstate = await hre.ethers.getContractFactory("RealEstateToken");
+  const [deployer] = await ethers.getSigners();
+
+  console.log("Deployando com a conta:", deployer.address);
+
+  const RealEstate = await ethers.getContractFactory("RealEstateToken");
   const contract = await RealEstate.deploy();
   await contract.waitForDeployment();
 
   console.log("Contrato implantado em:", await contract.getAddress());
 
-  // Carregar dados do JSON
   const properties = JSON.parse(
     fs.readFileSync("data/properties.json", "utf8")
   );
 
-  // Adicionar imóveis ao contrato
   for (const prop of properties) {
     const tx = await contract.addProperty(
       prop.name,
       prop.totalFractions,
-      hre.ethers.parseEther(prop.pricePerFraction),
+      ethers.parseEther(prop.pricePerFraction),
       prop.image,
       prop.description
     );

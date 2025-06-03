@@ -2,98 +2,98 @@
   {
     "name": "Casa na Praia",
     "totalFractions": 100,
-    "pricePerFraction": "0.05",
+    "pricePerFraction": "0.005",
     "image": "/images/casa-praia.jpg",
     "description": "Linda casa com vista para o mar, a poucos metros da areia."
   },
   {
     "name": "Apartamento Centro",
     "totalFractions": 80,
-    "pricePerFraction": "0.1",
+    "pricePerFraction": "0.001",
     "image": "/images/apartamento-centro.jpg",
     "description": "Apartamento moderno localizado no coração da cidade."
   },
   {
     "name": "Cobertura Luxuosa",
     "totalFractions": 50,
-    "pricePerFraction": "0.2",
+    "pricePerFraction": "0.001",
     "image": "/images/cobertura-luxuosa.png",
     "description": "Cobertura com piscina privativa e vista panorâmica."
   },
   {
     "name": "Chácara Tranquila",
     "totalFractions": 60,
-    "pricePerFraction": "0.04",
+    "pricePerFraction": "0.001",
     "image": "/images/chacara-tranquila.jpg",
     "description": "Refúgio rural com muito verde, ideal para descansar."
   },
   {
     "name": "Loft Industrial",
     "totalFractions": 70,
-    "pricePerFraction": "0.08",
+    "pricePerFraction": "0.008",
     "image": "/images/loft-industrial.jpg",
     "description": "Loft com design moderno e acabamento industrial."
   },
   {
     "name": "Casa de Campo",
     "totalFractions": 90,
-    "pricePerFraction": "0.06",
+    "pricePerFraction": "0.001",
     "image": "/images/casa-campo.jpg",
     "description": "Casa acolhedora em região montanhosa e fria."
   },
   {
     "name": "Apartamento Compacto",
     "totalFractions": 120,
-    "pricePerFraction": "0.03",
+    "pricePerFraction": "0.002",
     "image": "/images/apartamento-compacto.jpg",
     "description": "Apartamento pequeno, funcional e bem localizado."
   },
   {
     "name": "Cobertura Duplex",
     "totalFractions": 45,
-    "pricePerFraction": "0.25",
+    "pricePerFraction": "0.004",
     "image": "/images/cobertura-duplex.jpg",
     "description": "Cobertura em dois andares com varanda gourmet."
   },
   {
     "name": "Casa Moderna",
     "totalFractions": 100,
-    "pricePerFraction": "0.07",
+    "pricePerFraction": "0.003",
     "image": "/images/casa-moderna.jpg",
     "description": "Casa com arquitetura contemporânea e tecnologia inteligente."
   },
   {
     "name": "Flat Executivo",
     "totalFractions": 85,
-    "pricePerFraction": "0.09",
+    "pricePerFraction": "0.002",
     "image": "/images/flat-executivo.jpg",
     "description": "Flat ideal para executivos, próximo a centros comerciais."
   },
   {
     "name": "Sítio Familiar",
     "totalFractions": 70,
-    "pricePerFraction": "0.045",
+    "pricePerFraction": "0.001",
     "image": "/images/sitio-familiar.jpg",
     "description": "Sítio amplo com área de lazer e árvores frutíferas."
   },
   {
     "name": "Apartamento Garden",
     "totalFractions": 95,
-    "pricePerFraction": "0.055",
+    "pricePerFraction": "0.004",
     "image": "/images/apartamento-garden.jpg",
     "description": "Apartamento com jardim privativo e área externa ampla."
   },
   {
     "name": "Casa Colonial",
     "totalFractions": 80,
-    "pricePerFraction": "0.065",
+    "pricePerFraction": "0.006",
     "image": "/images/casa-colonial.jpg",
     "description": "Imóvel com arquitetura clássica e charme histórico."
   },
   {
     "name": "Studio Criativo",
     "totalFractions": 100,
-    "pricePerFraction": "0.035",
+    "pricePerFraction": "0.001",
     "image": "/images/studio-criativo.jpg",
     "description": "Studio versátil, ideal para jovens profissionais e artistas."
   }
